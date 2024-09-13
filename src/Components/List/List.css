@@ -26,6 +26,8 @@
     margin-right: .65rem;
     font-weight: 600;
     font-size: 0.8rem;
+    display: flex; 
+    align-items: center; 
 }
 .list-add-item{
     margin-right: .5rem;
@@ -49,4 +51,21 @@
     .list-container:last-child{
         margin-right: 1rem;
     }
+}
+
+.card-profile {
+    height: 18px; 
+    width: 18px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white1);
+    background-color: #b06e0c;
+    border-radius: 50%;
+    font-size: .6rem;
+    margin-right: .5rem; 
+}
+
+.card-profile-initial {
+    text-transform: uppercase;
 }
